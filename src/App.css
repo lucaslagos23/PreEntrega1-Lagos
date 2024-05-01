@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.barraDeNavegacion {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: linear-gradient(to left, #37373f, #3b3b43, #3e3e48, #42424c, #464651, #464650, #454550, #45454f, #404049, #3b3b43, #37373d, #323237);
+    color: rgb(255,255,255);
+    font-style: "Montserrat Regular", sans-serif;
+    height: 90px;
+    width: 100%;
+    padding: 0 20px;
+}
+.logo{
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 850;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.navigation-links {
+    display: flex;
+    align-items: center;
+}
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor: pointer;
+}
+.logo, .login-link, .contacto {
+    padding: 10px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.login-link{
+    font-size: 17px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+}
+.login-link:hover {
+    text-decoration: none;  
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.barraDeBusqueda{
+    color: rgb(55, 55, 63);
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.search-box {
+    position: relative;
+    flex-grow: 1;
+}
+.cuenta-carrito {
+    color: rgb(255,255,255);
+    background-color: rgb(145, 198, 18);
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    aspect-ratio:1;
+    text-align: center; 
+    position: absolute;
+    top: -9px; 
+    right: -15px; 
+}
+.carrito-logo{
+    color: rgb(255,255,255);
+    font-size: 32px;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+}
+.carrito-contenedor{
+        margin-right: 40px;
+        position: relative;
+    }
+
+input[type="text"] {
+    border-radius: 5px; 
+    }
+    
+input[type="text"]:focus {
+         outline: none;  /* el outline me sirve para sacarle el borde negro al input y este sin colores*/
+    }
+
+/* SubNavbar */
+
+.sub-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    height: 55px;
+    padding: 10px 350px;
+    text-transform: uppercase;
+}
+.links{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(55, 55, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.links:hover {
+    color: #fff;
+    background-color: rgb(55, 55, 63); 
+    text-decoration: none;  
+    border-radius: 5px;
+}
+
+/* Mensaje de bienvenida */
+.mensajeBienvenida {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.mensaje {
+    font-weight: 100;
+}
